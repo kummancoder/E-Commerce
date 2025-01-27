@@ -75,7 +75,7 @@ This project is a full-stack **E-Commerce Website** built using the **MERN stack
    - For the frontend:
      ```bash
      cd frontend
-     npm run dev
+     npm start
      ```
 
 6. Open the application in your browser at `http://localhost:3000`.
