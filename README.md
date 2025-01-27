@@ -33,55 +33,6 @@ This project is a full-stack **E-Commerce Website** built using the **MERN stack
 
 ---
 
-## Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/kummancoder/E-Commerce.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd E-Commerce
-   ```
-
-3. Install dependencies for both frontend and backend:
-
-   ```bash
-   cd frontend
-   npm install
-   cd ../backend
-   npm install
-   ```
-
-4. Set up environment variables in a `.env` file:
-
-   ```env
-   MONGO_URI=<your-mongodb-connection-string>
-   JWT_SECRET=<your-jwt-secret>
-   STRIPE_SECRET_KEY=<your-stripe-secret-key>
-   STRIPE_PUBLISHABLE_KEY=<your-stripe-publishable-key>
-   ```
-
-5. Start the development servers:
-
-   - For the backend:
-     ```bash
-     cd backend
-     npm run dev
-     ```
-   - For the frontend:
-     ```bash
-     cd frontend
-     npm start
-     ```
-
-6. Open the application in your browser at `http://localhost:3000`.
-
----
-
 ## Usage
 
 1. **User Mode**:
@@ -93,21 +44,6 @@ This project is a full-stack **E-Commerce Website** built using the **MERN stack
 2. **Admin Mode**:
 
    - Access the admin panel to manage products, orders, and users.
-
----
-
-## Future Improvements
-
-- Add real-time inventory tracking.
-- Implement product reviews and ratings.
-- Optimize performance for larger datasets.
-- Add multi-language support.
-
----
-
-## Contributing
-
-Contributions are welcome! If you'd like to contribute, please fork the repository and submit a pull request with your changes.
 
 ---
 
